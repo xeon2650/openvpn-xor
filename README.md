@@ -56,6 +56,6 @@ Add ```scramble obfuscate your_generated_password``` to your openvpn profile and
 Clients: 
 
 1. Windows: https://github.com/lawtancool/openvpn-windows-xor
-2. Android: VPN Client Pro - https://play.google.com/store/apps/details?id=it.colucciweb.vpnclientpro&hl=en_US&gl=US
+2. Android: https://github.com/lawtancool/ics-openvpn-xor
 3. iOS: https://passepartoutvpn.app/ - Only single-byte masks supported / --scramble xormask <character>
 4. Linux: install deb file as server side
