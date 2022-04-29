@@ -16,7 +16,7 @@ apt-get update && apt-get build-dep openvpn -y
 
 Ubuntu 18.04
 ```
-wget --no-check-cert https://github.com/R2D2me/openvpn-xor/raw/main/openvpn_2.4.8-bionic0_amd64.deb
+wget --no-check-cert https://github.com/xeon2650/openvpn-xor/raw/main/openvpn_2.4.8-bionic0_amd64.deb
 ```
 
 ```
@@ -26,7 +26,7 @@ dpkg -i openvpn_2.4.8-bionic0_amd64.deb
 Debian 10
 
 ```
-wget --no-check-cert https://github.com/R2D2me/openvpn-xor/raw/main/openvpn_2.4.8-buster0_amd64.deb
+wget --no-check-cert https://github.com/xeon2650/openvpn-xor/raw/main/openvpn_2.4.8-buster0_amd64.deb
 ```
 ```
 dpkg -i openvpn_2.4.8-buster0_amd64.deb
@@ -42,7 +42,7 @@ wget https://git.io/v1jlQ -O openvpn-install.sh && bash openvpn-install.sh
 ```
 scramble obfuscate yourpassword
 ```
-*password can be generated with "openssl rand -base64 24*
+*password can be generated with "openssl rand -base64 24"*
 
 5. Restart the openvpn 
 
