@@ -54,6 +54,10 @@ Add ```scramble obfuscate your_generated_password``` to your openvpn profile and
 
 Service file:
 ```
+nano /etc/systemd/system/openvpn@server.service
+```
+
+```
 [Unit]
 Description=OpenVPN Robust And Highly Flexible Tunneling Application On %I
 After=syslog.target network.target
