@@ -52,6 +52,20 @@ systemctl restart openvpn@server.service
 
 Add ```scramble obfuscate your_generated_password``` to your openvpn profile and connect.
 
+Service file:
+```
+[Unit]
+Description=OpenVPN Robust And Highly Flexible Tunneling Application On %I
+After=syslog.target network.target
+
+[Service]
+Type=forking
+PrivateTmp=true
+ExecStart=/usr/sbin/openvpn --daemon --cd /etc/openvpn/ --config /etc/openvpn/server.conf
+
+[Install]
+WantedBy=multi-user.target
+```
 
 Clients: 
 
